@@ -1,21 +1,24 @@
-# OpenStack secrets
+# OpenStack
 openrc
 local.conf
+.env
 
-# SSH Keys
+# Keys
 *.pem
 *.key
 id_rsa
+id_ed25519
 
 # Logs
 *.log
 
-# Environment
-.env
-
-# Temporary files
+# Temporary
 *.tmp
 
 # Python
 __pycache__
 *.pyc
+
+# IDE
+.vscode
+.idea
