@@ -1,0 +1,21 @@
+# OpenStack secrets
+openrc
+local.conf
+
+# SSH Keys
+*.pem
+*.key
+id_rsa
+
+# Logs
+*.log
+
+# Environment
+.env
+
+# Temporary files
+*.tmp
+
+# Python
+__pycache__
+*.pyc
